@@ -1,0 +1,103 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
+      "line": 13,
+      "symbol": "DummyViewController.dummyLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
+      "line": 14,
+      "symbol": "DummyViewController.dummyModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/AppDelegate.swift",
+      "line": 23,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/AppDelegate.swift",
+      "line": 29,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 11,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 13,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 16,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 23,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 30,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Delegates/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/gonder/Desktop/Workspace/Dummy"
+}

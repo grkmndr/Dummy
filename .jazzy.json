@@ -1,0 +1,39 @@
+{
+    "xcodebuild_arguments": ["-project", "Dummy.xcodeproj", "-scheme", "Dummy"],
+    "author": "Görkem Önder",
+    "author_url": "https://github.com/grkmndr",
+    "module": "Dummy",
+    //"readme": "Docs/tmp/compile/README.md",
+
+    //"documentation": "Docs/tmp/docs/*.md",
+    //"abstract": "Docs/tmp/api/*.md",
+    "exclude": ["**/AppDelegate.swift", "**/SceneDelegate.swift"],
+    "custom_categories": [{
+        "name": "Documentation",
+        "children": [
+            "About ReSwift",
+            "Why ReSwift",
+            "Getting Started Guide",
+            "Installation",
+            "Checking out Source Code",
+            "Demo",
+            "Extensions",
+            "Example Projects",
+            "Contributing",
+            "Credits",
+            "Get in touch",
+            "Changelog",
+            "License"
+        ]
+    }, {
+        "name": "Controllers",
+        "children": [
+            "DummyViewController"
+        ]
+    }, {
+        "name": "ViewModels",
+        "children": [
+            "DummyViewModel"
+        ]
+    }]
+}

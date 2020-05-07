@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		108808D82462C1C300981544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108808D72462C1C300981544 /* AppDelegate.swift */; };
 		108808DA2462C1C300981544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108808D92462C1C300981544 /* SceneDelegate.swift */; };
-		108808DC2462C1C300981544 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108808DB2462C1C300981544 /* ViewController.swift */; };
+		108808DC2462C1C300981544 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108808DB2462C1C300981544 /* DummyViewController.swift */; };
 		108808DF2462C1C300981544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108808DD2462C1C300981544 /* Main.storyboard */; };
 		108808E12462C1C400981544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108808E02462C1C400981544 /* Assets.xcassets */; };
 		108808E42462C1C400981544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108808E22462C1C400981544 /* LaunchScreen.storyboard */; };
+		10D6D64E2462F12A00E62823 /* DummyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D6D64D2462F12A00E62823 /* DummyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		108808D42462C1C300981544 /* Dummy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dummy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108808D72462C1C300981544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		108808D92462C1C300981544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		108808DB2462C1C300981544 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		108808DB2462C1C300981544 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 		108808DE2462C1C300981544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		108808E02462C1C400981544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		108808E32462C1C400981544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		108808E52462C1C400981544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10D6D64D2462F12A00E62823 /* DummyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		108808D62462C1C300981544 /* Dummy */ = {
 			isa = PBXGroup;
 			children = (
-				108808D72462C1C300981544 /* AppDelegate.swift */,
-				108808D92462C1C300981544 /* SceneDelegate.swift */,
-				108808DB2462C1C300981544 /* ViewController.swift */,
-				108808DD2462C1C300981544 /* Main.storyboard */,
-				108808E02462C1C400981544 /* Assets.xcassets */,
-				108808E22462C1C400981544 /* LaunchScreen.storyboard */,
-				108808E52462C1C400981544 /* Info.plist */,
+				10D6D64F2462FA6300E62823 /* Controllers */,
+				10D6D6532462FAB400E62823 /* Delegates */,
+				10D6D6522462FA9F00E62823 /* Storyboards */,
+				10D6D6512462FA8E00E62823 /* Supporting Files */,
+				10D6D6502462FA6E00E62823 /* ViewModels */,
 			);
 			path = Dummy;
+			sourceTree = "<group>";
+		};
+		10D6D64F2462FA6300E62823 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				108808DB2462C1C300981544 /* DummyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		10D6D6502462FA6E00E62823 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				10D6D64D2462F12A00E62823 /* DummyViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		10D6D6512462FA8E00E62823 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				108808E52462C1C400981544 /* Info.plist */,
+				108808E02462C1C400981544 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10D6D6522462FA9F00E62823 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				108808E22462C1C400981544 /* LaunchScreen.storyboard */,
+				108808DD2462C1C300981544 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		10D6D6532462FAB400E62823 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				108808D72462C1C300981544 /* AppDelegate.swift */,
+				108808D92462C1C300981544 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				108808DC2462C1C300981544 /* ViewController.swift in Sources */,
+				10D6D64E2462F12A00E62823 /* DummyViewModel.swift in Sources */,
+				108808DC2462C1C300981544 /* DummyViewController.swift in Sources */,
 				108808D82462C1C300981544 /* AppDelegate.swift in Sources */,
 				108808DA2462C1C300981544 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,7 +329,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Dummy/Info.plist;
+				DEVELOPMENT_TEAM = 7KCSWH3UQQ;
+				INFOPLIST_FILE = "Dummy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +347,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Dummy/Info.plist;
+				DEVELOPMENT_TEAM = 7KCSWH3UQQ;
+				INFOPLIST_FILE = "Dummy/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
