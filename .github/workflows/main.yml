@@ -19,6 +19,8 @@ jobs:
         ref: ${{ github.head_ref }}
 
     - uses: grkmndr/jazzy-doc-generation-action@v1.0
+      with:
+        config: .jazzy.json
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
