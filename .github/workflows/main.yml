@@ -11,6 +11,9 @@ jobs:
     runs-on: macOS-latest
     
     steps:
+    
+    - run: npm install shelljs  
+
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.head_ref }}
