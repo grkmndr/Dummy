@@ -11,7 +11,6 @@ jobs:
     runs-on: macOS-latest
     
     steps:
-    - run: less /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/xcodebuild-3EEE63DA-EBC3-462F-9ED2-5F63A22BFFF6.log
     - run: npm install shelljs  
 
     - uses: actions/checkout@v2
@@ -21,7 +20,7 @@ jobs:
     - uses: grkmndr/jazzy-doc-generation-action@v1.1
       with:
         config: .jazzy.json
-
+    - run: cd /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/ && cat $(ls -1 | grep 'xcodebuild.*log')
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: Jazzy documentation updated.
