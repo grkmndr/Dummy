@@ -1,5 +1,5 @@
 {
-    "xcodebuild_arguments": ["-project", "Dummy.xcodeproj", "-scheme", "Dummy"],
+    "xcodebuild_arguments": ["-project", "Dummy.xcodeproj", "-scheme", "Dummy", "CODE_SIGNING_ALLOWED=NO"],
     "author": "Görkem Önder",
     "author_url": "https://github.com/grkmndr",
     "module": "Dummy",
@@ -8,6 +8,7 @@
     //"documentation": "Docs/tmp/docs/*.md",
     //"abstract": "Docs/tmp/api/*.md",
     "exclude": ["**/AppDelegate.swift", "**/SceneDelegate.swift"],
+    "min_acl": "private",
     "custom_categories": [{
         "name": "Documentation",
         "children": [
