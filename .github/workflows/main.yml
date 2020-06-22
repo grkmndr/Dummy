@@ -18,7 +18,7 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
 
-    - uses: grkmndr/jazzy-doc-generation-action@v1.0
+    - uses: grkmndr/jazzy-doc-generation-action@v1.1
       with:
         config: .jazzy.json
 
