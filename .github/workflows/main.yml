@@ -11,7 +11,7 @@ jobs:
     runs-on: macOS-latest
     
     steps:
-    
+    - run: less /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/xcodebuild-3EEE63DA-EBC3-462F-9ED2-5F63A22BFFF6.log
     - run: npm install shelljs  
 
     - uses: actions/checkout@v2
