@@ -1,6 +1,20 @@
 {
   "warnings": [
     {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
+      "line": 13,
+      "symbol": "DummyViewController.dummyLabel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
+      "line": 14,
+      "symbol": "DummyViewController.dummyModel",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/ViewModels/DummyViewModel.swift",
       "line": 25,
       "symbol": "DummyViewModel.DummyError",
