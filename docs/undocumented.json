@@ -30,7 +30,7 @@
     },
     {
       "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/ViewModels/DummyViewModel.swift",
-      "line": 81,
+      "line": 83,
       "symbol": "ChildDummyViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"

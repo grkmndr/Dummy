@@ -1,22 +1,22 @@
 {
   "warnings": [
     {
-      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
-      "line": 13,
-      "symbol": "DummyViewController.dummyLabel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/Controllers/DummyViewController.swift",
-      "line": 14,
-      "symbol": "DummyViewController.dummyModel",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/ViewModels/DummyViewModel.swift",
+      "line": 25,
+      "symbol": "DummyViewModel.DummyError",
+      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/ViewModels/DummyViewModel.swift",
-      "line": 48,
+      "line": 26,
+      "symbol": "DummyViewModel.DummyError.dummyError",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/gonder/Desktop/Workspace/Dummy/Dummy/ViewModels/DummyViewModel.swift",
+      "line": 83,
       "symbol": "ChildDummyViewModel",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"

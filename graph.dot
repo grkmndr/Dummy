@@ -1,0 +1,9 @@
+digraph {
+  ChildDummyViewModel [shape=box]
+  ChildDummyViewModel -> DummyViewModel
+  AppDelegate -> UIApplicationDelegate
+  AppDelegate -> UIResponder
+  SceneDelegate -> UIResponder
+  SceneDelegate -> UIWindowSceneDelegate
+  DummyViewController -> UIViewController
+}
